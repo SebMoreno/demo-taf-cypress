@@ -1,0 +1,10 @@
+{
+  "baseUrl": ".",
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "es5",
+    "lib": ["ESNext", "dom"],
+    "types": ["cypress", "node"]
+  },
+  "include": ["**/*.ts", "cypress.d.ts"]
+}
